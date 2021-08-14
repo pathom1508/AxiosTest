@@ -8,6 +8,7 @@ function getPokemonData(){
     .then(function(response){
         pokemonName.innerHTML = response.data.forms[0].name;
         pokemonImage.src =  response.data.sprites.front_default;
+        // bvdgpktmkbhmndertbhrdkhbt,ghjb htorobtbrotbhnbhobhbhbrt;hn;ytn ry ry 
     })
     .catch(function(error){
         pokemonName.innerHTML = "(An error)";
